@@ -67,6 +67,7 @@ EMSCRIPTEN_BINDINGS(whisper) {
 
         // print system information
         {
+            printf("FUCK YEAH");
             printf("\n");
             printf("system_info: n_threads = %d / %d | %s\n",
                     params.n_threads, std::thread::hardware_concurrency(), whisper_print_system_info());
